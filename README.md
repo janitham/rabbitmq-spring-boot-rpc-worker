@@ -16,7 +16,7 @@ You could run the project as Spring-Boot with multiple profiles<br/>
 - pub
 - sub
 
-### Clustering
+### Run RabbitMq
 You could run `docker-compose.yml` to create RabbitMq single instance locally.<br/>
 
     docker-compose up
@@ -29,7 +29,7 @@ Just run following command multiple times.
     
     mvn spring-boot:run -Dspring-boot.run.profiles=sub
 
-#### Run Workers
+#### Run Publisher
 Just run following command once to create 'Publisher' instance.
 
     mvn spring-boot:run -Dspring-boot.run.profiles=pub
