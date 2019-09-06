@@ -16,12 +16,12 @@ You could run the project as Spring-Boot with multiple profiles<br/>
 - pub
 - sub
 
-### Run RabbitMq
+### How to get it working
+
+#### Run RabbitMq
 You could run `docker-compose.yml` to create RabbitMq single instance locally.<br/>
 
-    docker-compose up
-
-### How to get it working
+    docker-compose up -d
 
 #### Run Workers
 You should create at least two workers, otherwise you could not be able to monitor async works.<br/>
